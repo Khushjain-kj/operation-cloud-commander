@@ -12,6 +12,7 @@ import MissionCard from "@/components/ui/MissionCard";
 import CommandBar from "@/components/ui/CommandBar";
 import AudioToggle from "@/components/ui/AudioToggle";
 import Fallback2DHub from "@/components/ui/Fallback2DHub";
+import GuideHelper from "@/components/ui/GuideHelper";
 
 // Dynamically import the 3D scene (client-only, no SSR)
 const MissionHubScene = dynamic(
@@ -348,6 +349,10 @@ export default function Page() {
         <>
           <CommandBar data={portfolioData} />
           <AudioToggle />
+          <GuideHelper
+            data={portfolioData}
+            onMissionSelect={handleMissionSelectFromLedger}
+          />
         </>
       )}
 

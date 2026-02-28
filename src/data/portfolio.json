@@ -1,114 +1,108 @@
 {
   "profile": {
     "name": "Khush Jain",
-    "title": "Cloud Engineering Leader",
+    "title": "Assistant Manager – Cloud Engineering (AWS)",
     "location": "Pune, India",
     "phone": "+91 8780791994",
     "email": "khushjain12368@gmail.com",
     "linkedin": "linkedin.com/in/khush-jain",
-    "summary": "Seasoned Cloud Engineering Leader with 7+ years architecting and delivering cloud-native systems on AWS. Proven track record driving cost optimization, resilience improvements, and GenAI adoption at scale. Led cross-functional teams, shipped mission-critical platforms, and translated business goals into robust cloud solutions."
+    "summary": "Cloud Engineering professional with 3+ years of experience delivering scalable, secure, and compliant AWS solutions for fintech and enterprise environments. Strong expertise in Disaster Recovery, air-gapped architectures, cloud automation, cost optimization, and security hardening. Proven track record in client/stakeholder management, cross-team delivery, and leading cloud engineering teams."
   },
   "heroStats": [
-    { "id": "savings", "value": "$264K", "label": "Annual Cloud Savings", "suffix": "/yr" },
+    { "id": "savings", "value": "$260K", "label": "Annual Savings", "suffix": "/yr" },
     { "id": "rto", "value": "66%", "label": "RTO Reduction", "suffix": "" },
-    { "id": "provisioning", "value": "60%", "label": "Faster Provisioning", "suffix": "" },
-    { "id": "engineers", "value": "4", "label": "Engineers Led", "suffix": "+" }
+    { "id": "s3savings", "value": "$4K", "label": "Monthly S3 Savings", "suffix": "/mo" },
+    { "id": "engineers", "value": "4", "label": "Engineers Led", "suffix": "" }
   ],
   "skills": [
     {
       "category": "Cloud Platforms",
-      "skills": ["AWS EC2", "AWS Lambda", "AWS S3", "AWS RDS", "AWS CloudFront", "AWS WAF", "AWS Bedrock", "AWS IAM", "AWS CloudWatch", "AWS Cost Explorer"]
+      "skills": ["AWS EC2", "AWS S3", "AWS IAM", "AWS EKS", "Route 53", "CloudFront", "Azure (multi-cloud)"]
+    },
+    {
+      "category": "Disaster Recovery & Backup",
+      "skills": ["Multi-region DR", "Air-gapped Recovery", "Backup/Restore Validation", "Failover Testing", "RTO/RPO Optimization", "Operational Resilience"]
     },
     {
       "category": "DevOps & IaC",
-      "skills": ["Terraform", "AWS CDK", "Docker", "Kubernetes", "GitHub Actions", "Jenkins", "Ansible"]
-    },
-    {
-      "category": "Languages & Frameworks",
-      "skills": ["Python", "TypeScript", "Node.js", "FastAPI", "Next.js", "Bash/Shell"]
-    },
-    {
-      "category": "AI & ML",
-      "skills": ["AWS Bedrock", "LLM Integration", "Prompt Engineering", "RAG Architecture", "LangChain"]
+      "skills": ["AWS CodePipeline", "AWS CodeDeploy", "CloudFormation", "TeamCity", "ArgoCD (GitOps)", "Blue-Green Deployments"]
     },
     {
       "category": "Security & Compliance",
-      "skills": ["ISO 27001", "WAF Configuration", "DDoS Mitigation", "IAM Hardening", "Data Lifecycle Governance"]
+      "skills": ["AWS WAF", "ISO/IEC 27001:2022", "Secrets Management", "Password Rotation Automation", "DDoS/Bot Mitigation", "S3 Object Lifecycle Governance"]
     },
     {
-      "category": "Observability",
-      "skills": ["CloudWatch", "Prometheus", "Grafana", "AWS X-Ray", "PagerDuty"]
+      "category": "Scripting & Automation",
+      "skills": ["Python", "Bash", "Automation Scripts", "CI/CD-driven Deployments", "Cleanup Automation"]
+    },
+    {
+      "category": "Monitoring & Tooling",
+      "skills": ["AWS CloudWatch", "Splunk", "ServiceNow", "Traffic Analytics"]
     }
   ],
   "timeline": [
     {
-      "period": "2022 – Present",
-      "role": "Cloud Engineering Lead",
-      "company": "Finastra",
-      "summary": "Leading cloud delivery for a fintech lending platform. Managing a team of 4 engineers. Architected GenAI infrastructure, drove cost optimization, and improved system resilience."
+      "period": "Dec 2025 – Present",
+      "role": "Assistant Manager, Cloud Engineering (AWS)",
+      "company": "Fibe",
+      "summary": "Lead cloud delivery for a fintech finance application. Manage a team of 4 cloud engineers across build, release, and production support. Driving DR architecture, WAF hardening, S3 cost governance, and automation initiatives."
     },
     {
-      "period": "2020 – 2022",
-      "role": "Senior Cloud Engineer",
-      "company": "Finastra",
-      "summary": "Designed and implemented scalable AWS architectures. Led WAF/security hardening and S3 lifecycle automation initiatives. Reduced operational overhead and improved compliance posture."
-    },
-    {
-      "period": "2018 – 2020",
+      "period": "Jan 2023 – Dec 2025",
       "role": "Cloud Engineer",
-      "company": "Persistent Systems",
-      "summary": "Built and maintained cloud infrastructure for enterprise clients. Delivered infrastructure-as-code pipelines using Terraform and AWS CDK. Supported DevOps culture adoption across teams."
+      "company": "ZS Associates",
+      "summary": "Led AWS cloud administration and infrastructure delivery for enterprise applications. Implemented DR and backup strategies including air-gapped environments. Re-architected flagship app improving RTO from 18h to 6h. Built Blue-Green pipelines and Python automation scripts."
     }
   ],
   "missions": [
     {
-      "id": "mission-genai-portal",
-      "title": "Operation GenAI Portal",
-      "tagline": "LLM provisioning at 60% faster velocity",
-      "challenge": "Engineering teams spent weeks manually provisioning LLM environments and integrating AWS Bedrock services, creating a bottleneck that slowed AI experimentation and product delivery.",
-      "solution": "Designed and shipped a self-service LLM provisioning portal backed by AWS Bedrock. Automated environment setup with Terraform modules and built a unified API gateway for multi-model routing. Implemented cost guardrails and usage dashboards.",
+      "id": "mission-dr-airgap",
+      "title": "Operation Iron Continuity",
+      "tagline": "Multi-region DR with air-gapped recovery at Fibe",
+      "challenge": "Fibe's fintech finance application had no tested disaster recovery plan. A real outage risked regulatory penalties and complete service disruption for customers. Compliance requirements demanded air-gapped recovery capabilities.",
+      "solution": "Designed and implemented a multi-region Disaster Recovery architecture with air-gapped recovery solutions. Conducted regular failover testing and restoration validation. Aligned DR runbooks with compliance requirements and coordinated stakeholder sign-offs. Ensured business continuity across all failure scenarios.",
       "impactMetrics": [
-        { "label": "Provisioning Speed", "value": "60", "suffix": "% faster" },
-        { "label": "Models Supported", "value": "8", "suffix": "+" },
-        { "label": "Teams Unblocked", "value": "6", "suffix": "" }
+        { "label": "Recovery Strategy", "value": "Multi-region", "suffix": " DR" },
+        { "label": "Recovery Mode", "value": "Air-gapped", "suffix": " tested" },
+        { "label": "Compliance", "value": "Full", "suffix": " alignment" }
       ],
-      "techStack": ["AWS Bedrock", "Terraform", "Python", "FastAPI", "AWS API Gateway", "TypeScript", "CloudWatch"],
-      "period": "2023 – 2024",
-      "company": "Finastra",
+      "techStack": ["AWS EC2", "AWS S3", "AWS Route 53", "AWS CloudFormation", "Backup/Restore Automation", "Failover Testing"],
+      "period": "Dec 2025 – Present",
+      "company": "Fibe",
       "position": [-3, 0.5, -1],
       "color": "#00f5d4"
     },
     {
       "id": "mission-fintech-leadership",
-      "title": "Operation Fintech Command",
-      "tagline": "Cloud delivery leadership for lending platform",
-      "challenge": "The lending platform's cloud operations lacked engineering leadership. Delivery timelines were slipping, infrastructure debt was growing, and cross-team alignment was missing.",
-      "solution": "Stepped in as Cloud Engineering Lead managing 4 engineers. Established sprint cadences, introduced infrastructure review gates, and built a shared AWS architecture playbook. Reduced P1 incidents by introducing runbooks and on-call rotation.",
+      "title": "Operation Team Command",
+      "tagline": "Leading 4 engineers across build, release & production",
+      "challenge": "Fibe's cloud engineering function needed structured leadership to manage build, release, and production support for a high-stakes fintech application. Delivery timelines and engineering quality needed oversight.",
+      "solution": "Stepped up as Assistant Manager leading 4 cloud engineers. Established structured processes for build, release, and production support. Introduced CI/CD-driven deployments, automation for secrets management and password rotation, and cleanup of unused cloud resources to improve security and operational efficiency.",
       "impactMetrics": [
-        { "label": "Engineers Led", "value": "4", "suffix": "" },
-        { "label": "Delivery Velocity", "value": "40", "suffix": "% faster" },
-        { "label": "P1 Incidents", "value": "50", "suffix": "% fewer" }
+        { "label": "Team Size", "value": "4", "suffix": " engineers" },
+        { "label": "Coverage", "value": "Build + Release", "suffix": " + Prod" },
+        { "label": "Automation", "value": "CI/CD + Secrets", "suffix": " mgmt" }
       ],
-      "techStack": ["AWS", "Terraform", "GitHub Actions", "Jira", "Confluence", "PagerDuty"],
-      "period": "2022 – Present",
-      "company": "Finastra",
+      "techStack": ["AWS", "CodePipeline", "TeamCity", "Secrets Manager", "ServiceNow", "CloudWatch"],
+      "period": "Dec 2025 – Present",
+      "company": "Fibe",
       "position": [3, 0.5, -1],
       "color": "#f72585"
     },
     {
       "id": "mission-cost-optimization",
       "title": "Operation Cost Siege",
-      "tagline": "S3 lifecycle automation saving $4K/month",
-      "challenge": "Uncontrolled S3 storage costs were spiraling due to lack of data lifecycle governance. Terabytes of stale objects were accumulating across buckets with no automated cleanup.",
-      "solution": "Built an automated S3 lifecycle governance system using Lambda and CloudWatch Events. Created tiering policies (S3 → Glacier → deletion), tagging enforcement via AWS Config rules, and a monthly cost dashboard surfacing savings.",
+      "tagline": "S3 lifecycle automation saving $4,000/month",
+      "challenge": "Uncontrolled S3 storage costs were spiraling at Fibe due to lack of lifecycle governance. Large volumes of stale objects accumulated with no automated retention or cleanup policies.",
+      "solution": "Implemented S3 lifecycle policies and usage analysis to automatically tier and expire unused data. Built cleanup automation and standardized governance policies across all buckets. Delivered ongoing $4,000/month in S3 cost savings while improving compliance posture.",
       "impactMetrics": [
         { "label": "Monthly Savings", "value": "$4,000", "suffix": "/mo" },
-        { "label": "Storage Reduced", "value": "35", "suffix": "%" },
-        { "label": "Buckets Governed", "value": "120", "suffix": "+" }
+        { "label": "Governance", "value": "Lifecycle", "suffix": " policies" },
+        { "label": "Process", "value": "Fully", "suffix": " automated" }
       ],
-      "techStack": ["AWS S3", "AWS Lambda", "CloudWatch Events", "AWS Config", "Python", "Cost Explorer"],
-      "period": "2021 – 2022",
-      "company": "Finastra",
+      "techStack": ["AWS S3", "S3 Lifecycle Policies", "CloudWatch", "Python", "Cleanup Automation", "Cost Explorer"],
+      "period": "Dec 2025 – Present",
+      "company": "Fibe",
       "position": [0, 0.5, 2],
       "color": "#ffd60a"
     },
@@ -116,60 +110,59 @@
       "id": "mission-resilience-rearchitecture",
       "title": "Operation Iron Uptime",
       "tagline": "RTO 18h → 6h, saving $260K/year",
-      "challenge": "The lending platform's disaster recovery was theoretical — RTO was 18 hours with untested playbooks. A real outage would cost hundreds of thousands in penalties and lost business.",
-      "solution": "Re-architected disaster recovery using multi-AZ RDS, cross-region S3 replication, and automated failover runbooks. Introduced chaos testing with AWS Fault Injection Simulator. Cut RTO from 18h to 6h and validated through quarterly DR drills.",
+      "challenge": "ZS Associates' flagship enterprise application had an 18-hour RTO with untested recovery runbooks. A real disaster would have cost hundreds of thousands of dollars in downtime penalties and business disruption.",
+      "solution": "Re-architected the application's resilience posture from the ground up. Introduced multi-region failover, validated backup/restore procedures, and rebuilt deployment pipelines with Blue-Green strategy (CodePipeline + CodeDeploy + EC2) for zero-downtime releases. Reduced RTO from 18 hours to 6 hours.",
       "impactMetrics": [
-        { "label": "RTO Reduction", "value": "66", "suffix": "%" },
+        { "label": "RTO Improvement", "value": "18h → 6h", "suffix": "" },
         { "label": "Annual Savings", "value": "$260K", "suffix": "/yr" },
-        { "label": "Uptime SLA", "value": "99.95", "suffix": "%" }
+        { "label": "Deployment", "value": "Zero-downtime", "suffix": "" }
       ],
-      "techStack": ["AWS RDS Multi-AZ", "AWS FIS", "S3 Cross-Region Replication", "Route 53", "Lambda", "Terraform"],
-      "period": "2022 – 2023",
-      "company": "Finastra",
+      "techStack": ["AWS CodePipeline", "AWS CodeDeploy", "EC2 Blue-Green", "CloudFormation", "Backup Automation", "Python"],
+      "period": "Jan 2023 – Dec 2025",
+      "company": "ZS Associates",
       "position": [-3, 0.5, 2],
       "color": "#7209b7"
     },
     {
       "id": "mission-security-compliance",
       "title": "Operation Cyber Shield",
-      "tagline": "WAF + ISO 27001 alignment, 2PB data cleanup",
-      "challenge": "The platform faced DDoS and bot traffic with no WAF controls. Simultaneously, an ISO 27001 audit exposed 2+ PB of non-compliant data without proper retention policies or access controls.",
-      "solution": "Deployed AWS WAF on CloudFront with custom rule groups for bot mitigation and rate limiting. Led the data governance remediation — implemented S3 Object Lock, automated retention policies, and IAM least-privilege hardening. Passed ISO 27001 certification.",
+      "tagline": "WAF hardening, ISO 27001 alignment, 2PB data cleanup",
+      "challenge": "ZS Associates faced DDoS and bot traffic with no WAF controls. An ISO/IEC 27001:2022 audit also exposed ~2 PB of non-compliant, unmanaged S3 data without proper retention or access governance.",
+      "solution": "Deployed AWS WAF on CloudFront with custom rules for bot and DDoS mitigation, improving traffic visibility and security posture. Led the ISO 27001:2022 ISMS remediation — removed ~2 PB of unused S3 data, standardized lifecycle and backup policies, and hardened access controls. Achieved full audit alignment.",
       "impactMetrics": [
-        { "label": "Data Cleaned Up", "value": "~2PB", "suffix": "" },
-        { "label": "Bot Traffic Blocked", "value": "98", "suffix": "%" },
-        { "label": "Compliance", "value": "ISO 27001", "suffix": "" }
+        { "label": "Data Cleaned", "value": "~2PB", "suffix": "" },
+        { "label": "Standard", "value": "ISO 27001", "suffix": ":2022" },
+        { "label": "Threat", "value": "DDoS/Bot", "suffix": " mitigated" }
       ],
-      "techStack": ["AWS WAF", "CloudFront", "AWS IAM", "S3 Object Lock", "AWS Config", "GuardDuty", "Security Hub"],
-      "period": "2021 – 2023",
-      "company": "Finastra",
+      "techStack": ["AWS WAF", "CloudFront", "AWS IAM", "S3 Lifecycle", "ISO/IEC 27001:2022", "CloudWatch"],
+      "period": "Jan 2023 – Dec 2025",
+      "company": "ZS Associates",
       "position": [3, 0.5, 2],
       "color": "#ef233c"
     }
   ],
   "education": [
     {
-      "degree": "B.E. in Computer Engineering",
-      "institution": "University of Pune",
-      "year": "2018"
+      "degree": "B.Tech – Computer Science & Engineering",
+      "institution": "MIT School of Engineering, Pune",
+      "year": "2019 – 2023"
     }
   ],
   "certifications": [
-    { "name": "AWS Certified Solutions Architect – Associate", "issuer": "Amazon Web Services", "year": "2021" },
-    { "name": "AWS Certified Developer – Associate", "issuer": "Amazon Web Services", "year": "2022" },
-    { "name": "HashiCorp Certified: Terraform Associate", "issuer": "HashiCorp", "year": "2023" }
+    { "name": "ISO/IEC 27001:2022 ISMS Lead Auditor Trained", "issuer": "BSI Training", "year": "2024" },
+    { "name": "Embedded System and Robotics", "issuer": "IIT Bombay (Online)", "year": "2022" }
   ],
   "openToRoles": [
-    { "title": "Cloud Engineering Lead", "type": "Full-time" },
-    { "title": "Principal Cloud Architect", "type": "Full-time" },
-    { "title": "Staff Engineer – Platform", "type": "Full-time" },
-    { "title": "Head of Cloud Infrastructure", "type": "Full-time" }
+    { "title": "Assistant Manager / Manager – Cloud Engineering", "type": "Full-time" },
+    { "title": "Senior Cloud Engineer", "type": "Full-time" },
+    { "title": "Cloud Architect / Platform Engineer", "type": "Full-time" },
+    { "title": "DevOps / Infrastructure Lead", "type": "Full-time" }
   ],
   "contact": [
     {
       "type": "email",
       "label": "Book Interview",
-      "href": "mailto:khushjain12368@gmail.com?subject=Interview%20Opportunity%20–%20Cloud%20Engineering%20Lead&body=Hi%20Khush%2C%0A%0AI%20came%20across%20your%20profile%20and%20would%20love%20to%20discuss%20an%20opportunity%20with%20you.%0A%0ALooking%20forward%20to%20connecting!",
+      "href": "mailto:khushjain12368@gmail.com?subject=Interview%20Opportunity%20%E2%80%93%20Cloud%20Engineering&body=Hi%20Khush%2C%0A%0AI%20came%20across%20your%20portfolio%20and%20would%20love%20to%20discuss%20an%20opportunity%20with%20you.%0A%0ALooking%20forward%20to%20connecting!",
       "trackingEvent": "cta_click"
     },
     {
@@ -180,7 +173,7 @@
     },
     {
       "type": "resume",
-      "label": "Download Resume",
+      "label": "Resume PDF",
       "href": "/resume/Khush_Jain_Resume_1Page.pdf",
       "trackingEvent": "resume_download"
     },
