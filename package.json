@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "eslint src",
     "typecheck": "tsc --noEmit",
-    "export": "next build"
+    "export": "next build && next export"
   },
   "dependencies": {
     "@react-three/drei": "^10.7.7",
